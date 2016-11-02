@@ -30,19 +30,28 @@
 <body id="top" class="{{ page.header.body_classes }}">
 
 {% block header %}
-    <div class="header">
-        <div class="wrapper padding">
-            <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
-                <i class="fa fa-rebel"></i>
+    <nav class="header">
+        <div class="header-side">
+            <a class="logo" href="{{ base_url == '' ? '/' : base_url }}">
+                <img src="{{ url('theme://images/kaleidoscope-logo.png') }}">
                 {{ config.site.title }}
             </a>
-            {% block header_navigation %}
-            <nav class="main-nav">
-                {% include 'partials/navigation.html.twig' %}
-            </nav>
-            {% endblock %}
+            <a class="nav-link" href="#">
+                Activities
+            </a>
+            <a class="nav-link" href="#">
+                Get Involved
+            </a>
+            <a class="nav-link" href="#">
+                Professional Development
+            </a>
         </div>
-    </div>
+        <div class="header-side">
+            <a href="#">
+                <i class="fa fa-search nav-search"></i>
+            </a>
+        </div>
+    </nav>
 {% endblock %}
 
 {% block body %}
