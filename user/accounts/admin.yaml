@@ -1,0 +1,12 @@
+email: david.gagnon@wisc.edu
+fullname: 'David Gagnon'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: 'true'
+    super: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$rtotfDtBNjo3cLifeIihKeSKmgerrZWnG3bP.KLJWP4VMnp6Qg.Ny
+language: en
