@@ -16,14 +16,26 @@
     {% block stylesheets %}
         {% do assets.addCss('http://yui.yahooapis.com/pure/0.6.0/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', 99) %}
-        {% do assets.addCss('theme://css/custom.css', 98) %}
+        {% do assets.addCss('theme://css-compiled/custom.css', 98) %}
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs('theme://js/graphemescope.js', 99) %}
+        {% do assets.addJs('theme://js/start-scope.js', 98) %}
     {% endblock %}
     {{ assets.js() }}
+
+    <script type="text/javascript">
+        window.kaleidoscopeImages = [
+            "{{ url('theme://images/scope-1.jpg') }}",
+            "{{ url('theme://images/scope-2.jpg') }}",
+            "{{ url('theme://images/scope-3.jpg') }}",
+            "{{ url('theme://images/scope-4.jpg') }}",
+            "{{ url('theme://images/scope-5.jpg') }}",
+        ];
+    </script>
 
 {% endblock head%}
 </head>
@@ -52,6 +64,10 @@
             </a>
         </div>
     </nav>
+{% endblock %}
+
+{% block canvas %}
+    <div id="scope-container"></div>
 {% endblock %}
 
 {% block body %}

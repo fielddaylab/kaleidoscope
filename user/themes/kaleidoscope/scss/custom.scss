@@ -214,3 +214,11 @@ blockquote {
 .main-nav .has-children .has-children > a:after {
     content: '\f105';
 }
+
+/* Kaleidoscope */
+
+#scope-container {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
