@@ -67,7 +67,26 @@
 {% endblock %}
 
 {% block canvas %}
-    <div id="scope-container"></div>
+    <div class="hero-outer">
+        <div id="hero-container"></div>
+        <div class="hero-overlay">
+            <p class="hero-logo">
+                <img src="{{ url('theme://images/logo-hero.png') }}">
+            </p>
+            <p class="hero-presents">
+                <span class="hero-line"></span>
+                UW MRSEC presents:
+                <span class="hero-line"></span>
+            </p>
+            <p class="hero-title">
+                Kaleidoscope
+            </p>
+            <p class="hero-blurb">
+                See science and engineering<br>
+                through a new lens.
+            </p>
+        </div>
+    </div>
 {% endblock %}
 
 {% block body %}

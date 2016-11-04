@@ -217,8 +217,64 @@ blockquote {
 
 /* Kaleidoscope */
 
-#scope-container {
+.hero-outer {
     width: 100%;
     height: 400px;
     background-color: black;
+    position: relative;
+}
+
+#hero-container, .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+.hero-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.hero-logo img {
+    height: 65px;
+}
+
+.hero-overlay p {
+    text-transform: uppercase;
+    margin: 5px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.hero-presents {
+    font-family: Halis R;
+    font-size: 12px;
+}
+
+.hero-line {
+    width: 80px;
+    height: 2px;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.hero-title {
+    font-family: Halis R;
+    font-size: 2rem;
+    letter-spacing: 6px;
+}
+
+.hero-blurb {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
 }

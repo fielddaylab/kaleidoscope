@@ -3,7 +3,7 @@ $(document).ready(function(){
   var images = window.kaleidoscopeImages;
 
   // Let's create graphemescope object inside the container
-  var container = $("#scope-container");
+  var container = $("#hero-container");
   var scope = new Graphemescope( container[0] );
 
 
