@@ -4,6 +4,7 @@ $(document).ready(function(){
 
   // Let's create graphemescope object inside the container
   var container = $("#hero-container");
+  if (container.length === 0) return;
   var scope = new Graphemescope( container[0] );
 
 

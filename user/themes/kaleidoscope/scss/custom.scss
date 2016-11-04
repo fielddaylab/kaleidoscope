@@ -9,6 +9,11 @@
     src: url('../fonts/Roboto-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Aqua Grotesque';
+    src: url('../fonts/aqua.ttf');
+}
+
 /* Core Stuff */
 * {
     -webkit-box-sizing: border-box;
@@ -17,9 +22,11 @@
 }
 
 body {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.7;
     color: #606d6e;
+    letter-spacing: 2px;
+    font-family: Roboto;
 }
 
 h1,
@@ -245,7 +252,7 @@ blockquote {
     height: 65px;
 }
 
-.hero-overlay p {
+.hero-overlay h1, .hero-overlay h2 {
     text-transform: uppercase;
     margin: 5px;
     color: white;
@@ -277,4 +284,33 @@ blockquote {
     text-align: center;
     font-family: Roboto;
     font-size: 13px;
+}
+
+.modular-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.modular-box p {
+    max-width: 400px;
+}
+
+.modular-box h1 ,
+.modular-box h2 ,
+.modular-box h3 ,
+.modular-box h4 ,
+.modular-box h5 ,
+.modular-box h6 {
+    font-family: Aqua Grotesque;
+    text-transform: uppercase;
+}
+
+.modular-logo {
+    margin-bottom: 0px;
+}
+
+.modular-logo img {
+    height: 45px;
 }
