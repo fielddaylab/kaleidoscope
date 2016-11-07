@@ -7,4 +7,5 @@ content:
     custom:
     - _hero
     - _what-is-kaleidoscope
+    - _different
 ---

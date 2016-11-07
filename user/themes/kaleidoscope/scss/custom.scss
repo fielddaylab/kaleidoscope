@@ -297,14 +297,10 @@ blockquote {
     max-width: 400px;
 }
 
-.modular-box h1 ,
-.modular-box h2 ,
-.modular-box h3 ,
-.modular-box h4 ,
-.modular-box h5 ,
-.modular-box h6 {
+.modular-box h2 {
     font-family: Aqua Grotesque;
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .modular-logo {
@@ -313,4 +309,50 @@ blockquote {
 
 .modular-logo img {
     height: 45px;
+}
+
+.columns-outer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2, h3 {
+        text-align: center;
+        font-family: Aqua Grotesque;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+}
+
+.columns-beaker {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .columns-line-decoration {
+        flex: 1;
+        height: 2px;
+        background-color: black;
+    }
+    img {
+        height: 70px;
+        margin: 10px 50px;
+    }
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 25px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        height: 80px;
+    }
+    margin: 25px;
 }
