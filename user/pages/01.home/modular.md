@@ -8,4 +8,5 @@ content:
     - _hero
     - _what-is-kaleidoscope
     - _different
+    - _expandanswers
 ---

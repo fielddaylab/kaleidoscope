@@ -21,14 +21,6 @@ body {
   letter-spacing: 2px;
   font-family: Roboto; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #454B4D; }
-
 a {
   color: #1F8CD6;
   text-decoration: none; }
@@ -294,5 +286,27 @@ blockquote {
   margin: 25px; }
   .column img {
     height: 80px; }
+
+.answers-outer {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(75, 166, 198, 0.7) 100%), url(../images/scope-1.jpg) center/cover no-repeat;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .answers-outer .answers-header h2, .answers-outer .answers-header h3 {
+    text-align: center;
+    font-family: Aqua Grotesque;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white; }
+  .answers-outer .answers {
+    font-size: 13px;
+    max-width: 500px;
+    color: white; }
+    .answers-outer .answers .answer h3 {
+      padding: 5px 10px;
+      border: 1px solid white; }
 
 /*# sourceMappingURL=custom.css.map */

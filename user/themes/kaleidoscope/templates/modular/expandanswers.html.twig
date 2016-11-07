@@ -1,0 +1,13 @@
+<div class="answers-outer">
+  {% set chunks = content|split('<hr />') %}
+  <div class="answers-header">
+    {{ chunks[0] }}
+  </div>
+  <div class="answers">
+    {% for answer in chunks|array_slice(1) %}
+      <div class="answer">
+        {{ answer }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
