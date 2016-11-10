@@ -3,8 +3,10 @@ author:
   name: 'UW MRSEC'
   email: david.gagnon@wisc.edu
 taxonomies:
-  - category
-  - tag
+  - grades
+  - 'resource type'
+  - time
+  - 'page type'
 metadata:
   description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
 summary:

@@ -8,6 +8,9 @@
 @font-face {
   font-family: 'Aqua Grotesque';
   src: url("../fonts/aqua.ttf"); }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-SemiBold.otf"); }
 /* Core Stuff */
 * {
   -webkit-box-sizing: border-box;
@@ -308,5 +311,34 @@ blockquote {
     .answers-outer .answers .answer h3 {
       padding: 5px 10px;
       border: 1px solid white; }
+
+.explore-header {
+  text-align: center;
+  font-family: Aqua Grotesque;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color: black; }
+
+.content-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; }
+  .content-grid .content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 10px; }
+    .content-grid .content-row .content-entry {
+      border: 1px solid #f3f3f3;
+      margin: 10px;
+      box-shadow: 0px 1px 1px #aaa;
+      width: 280px;
+      padding: 10px; }
+      .content-grid .content-row .content-entry h3 {
+        font-family: Montserrat;
+        text-transform: uppercase;
+        color: black;
+        letter-spacing: 3px; }
 
 /*# sourceMappingURL=custom.css.map */

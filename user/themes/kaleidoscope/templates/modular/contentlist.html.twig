@@ -1,0 +1,15 @@
+<h1 class="explore-header">Explore, Learn, Discover</h1>
+
+<div class="content-grid">
+  {% for postRow in taxonomy.findTaxonomy({'page type': 'Content'}).batch(4) %}
+    <div class="content-row">
+      {% for post in postRow %}
+        <div class="content-entry">
+          <h3>{{post.title}}</h3>
+          <p>{{post.header.description}}</p>
+          <p>{{post.header.taxonomy['resource type'][0]}}</p>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
