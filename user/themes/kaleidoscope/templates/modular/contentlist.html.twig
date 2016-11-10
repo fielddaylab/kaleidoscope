@@ -5,9 +5,37 @@
     <div class="content-row">
       {% for post in postRow %}
         <div class="content-entry">
-          <h3>{{post.title}}</h3>
-          <p>{{post.header.description}}</p>
-          <p>{{post.header.taxonomy['resource type'][0]}}</p>
+          <div class="content-image" style="
+            background-image: url({{ post.media['image.jpg'].url }});
+          "></div>
+          <div class="content-text">
+            <h3>{{post.title}}</h3>
+            <p>{{post.header.description}}</p>
+          </div>
+          <div class="content-boxes">
+            <div class="content-box content-type">
+              {% if post.header.taxonomy['resource type'][0] == 'Games' %}
+                <div class="content-type-icon" style="background-image: url({{ url('theme://images/type-games.png') }})"></div>
+              {% elseif post.header.taxonomy['resource type'][0] == 'Labs' %}
+                <div class="content-type-icon" style="background-image: url({{ url('theme://images/type-labs.png') }})"></div>
+              {% elseif post.header.taxonomy['resource type'][0] == 'Video' %}
+                <div class="content-type-icon" style="background-image: url({{ url('theme://images/type-video.png') }})"></div>
+              {% elseif post.header.taxonomy['resource type'][0] == 'Articles' %}
+                <div class="content-type-icon" style="background-image: url({{ url('theme://images/type-articles.png') }})"></div>
+              {% endif %}
+            </div>
+            <div class="content-box">
+              5-99
+            </div>
+            <div class="content-box">
+              {{post.header.taxonomy.time[0]}}
+            </div>
+            <div class="content-box content-arrow">
+              <a href="{{ post.url }}">
+                <img src="{{ url('theme://images/right-arrow.png') }}">
+              </a>
+            </div>
+          </div>
         </div>
       {% endfor %}
     </div>
