@@ -310,7 +310,35 @@ blockquote {
     color: white; }
     .answers-outer .answers .answer h3 {
       padding: 5px 10px;
-      border: 1px solid white; }
+      border: 1px solid white;
+      border-radius: 3px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+    .answers-outer .answers .answer p {
+      overflow-y: hidden;
+      height: 0; }
+    .answers-outer .answers .answer .answer-arrow {
+      display: inline-block;
+      transform: rotate(45deg) translateY(-6px);
+      border-bottom: 2px solid black;
+      border-right: 2px solid black;
+      height: 12px;
+      width: 12px;
+      margin-right: 5px; }
+    .answers-outer .answers .answer.answer-open h3 {
+      background-color: white;
+      color: black; }
+    .answers-outer .answers .answer.answer-open p {
+      height: auto; }
+    .answers-outer .answers .answer.answer-open .answer-arrow {
+      transform: rotate(45deg) translateY(3px);
+      border-bottom: none;
+      border-right: none;
+      border-top: 2px solid black;
+      border-left: 2px solid black; }
 
 .explore-header {
   text-align: center;
