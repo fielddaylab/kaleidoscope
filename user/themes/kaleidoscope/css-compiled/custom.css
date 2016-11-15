@@ -185,13 +185,42 @@ blockquote {
   background-color: black;
   position: relative; }
 
-#hero-container, .hero-overlay {
+.hero-container, .hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   background-color: transparent; }
+
+.hero-controls {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+  .hero-controls h3.hero-controls-toggle {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer; }
+  .hero-controls .hero-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .hero-controls .hero-options img.hero-option {
+      width: 40px;
+      height: 40px;
+      cursor: pointer; }
+  .hero-controls .hero-explain {
+    width: 200px;
+    margin-top: 10px;
+    overflow-y: hidden; }
+    .hero-controls .hero-explain:not(.hero-explain-open) {
+      height: 0px; }
+    .hero-controls .hero-explain .hero-explain-content {
+      background-color: white;
+      width: 100%;
+      padding: 7px; }
 
 .hero-overlay {
   display: flex;
