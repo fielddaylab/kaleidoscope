@@ -9,4 +9,5 @@ content:
     - _what-is-kaleidoscope
     - _different
     - _questions
+    - _logos
 ---

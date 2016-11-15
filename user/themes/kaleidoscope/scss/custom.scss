@@ -540,3 +540,23 @@ blockquote {
         }
     }
 }
+
+.logos-outer {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        font-family: Aqua Grotesque;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+    }
+    .logos-row {
+        img {
+            height: 100px;
+            margin: 15px;
+        }
+    }
+}
