@@ -80,24 +80,39 @@
             <div class="footer-background-half footer-flip"></div>
         </div>
         <div class="footer-foreground">
-            <h2><img src="{{ url('theme://images/logo-white.png') }}"></h2>
-            <h2>Kaleidoscope</h2>
+            <h2>
+                <img class="footer-logo" src="{{ url('theme://images/logo-white.png') }}">
+                <span>Kaleidoscope</span>
+                <div class="footer-underline"></div>
+            </h2>
             <div class="footer-links">
-                <a href="#" class="footer-link">Activities</a>
-                <a href="#" class="footer-link">Activities</a>
-                <a href="#" class="footer-link">Activities</a>
-                <a href="#" class="footer-link">Professional Development</a>
-                <a href="#" class="footer-link">Professional Development</a>
-                <a href="#" class="footer-link">Professional Development</a>
-                <a href="#" class="footer-link">Get Involved</a>
-                <a href="#" class="footer-link">Get Involved</a>
-                <a href="#" class="footer-link">Get Involved</a>
-                <a href="#" class="footer-link">UW MRSEC Website</a>
-                <a href="#" class="footer-link">UW MRSEC Website</a>
-                <a href="#" class="footer-link">UW MRSEC Website</a>
+                <div class="footer-row">
+                    <a href="#" class="footer-link">Activities</a>
+                    <a href="#" class="footer-link">Activities</a>
+                    <a href="#" class="footer-link">Activities</a>
+                </div>
+                <div class="footer-row">
+                    <a href="#" class="footer-link">Professional Development</a>
+                    <a href="#" class="footer-link">Professional Development</a>
+                    <a href="#" class="footer-link">Professional Development</a>
+                </div>
+                <div class="footer-row">
+                    <a href="#" class="footer-link">Get Involved</a>
+                    <a href="#" class="footer-link">Get Involved</a>
+                    <a href="#" class="footer-link">Get Involved</a>
+                </div>
+                <div class="footer-row">
+                    <a href="#" class="footer-link">UW MRSEC Website</a>
+                    <a href="#" class="footer-link">UW MRSEC Website</a>
+                    <a href="#" class="footer-link">UW MRSEC Website</a>
+                </div>
             </div>
-            <h3>Made in partnership with</h3>
-            <h3>FIELD DAY</h3>
+            <h3 class="footer-made">Made in partnership with</h3>
+            <h3 class="footer-fieldday">
+                <a href="https://fielddaylab.wisc.edu/">
+                    <img src="{{ url('theme://images/fieldday-logo.png') }}" alt="Field Day">
+                </a>
+            </h3>
         </div>
     </div>
 {% endblock %}

@@ -11,6 +11,9 @@
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-SemiBold.otf"); }
+@font-face {
+  font-family: 'Jaapokki';
+  src: url("../fonts/Jaapokki-Regular.otf"); }
 /* Core Stuff */
 * {
   -webkit-box-sizing: border-box;
@@ -128,9 +131,48 @@ blockquote {
         transform: rotate(180deg); }
   .footer .footer-foreground {
     padding: 20px;
-    position: relative; }
-    .footer .footer-foreground .footer-links .footer-link {
-      color: white; }
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .footer .footer-foreground .footer-links {
+      font-size: 13px;
+      width: 100%;
+      max-width: 700px;
+      display: table;
+      text-align: left; }
+      .footer .footer-foreground .footer-links .footer-row {
+        display: table-row; }
+        .footer .footer-foreground .footer-links .footer-row .footer-link {
+          display: table-cell;
+          color: white;
+          flex: 1; }
+    .footer .footer-foreground h2 {
+      text-align: center;
+      font-family: Aqua Grotesque;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .footer .footer-foreground h2 .footer-logo {
+        height: 50px;
+        margin-bottom: 15px; }
+      .footer .footer-foreground h2 .footer-underline {
+        width: 260px;
+        height: 5px;
+        background-color: white;
+        display: inline-block;
+        margin: 10px; }
+    .footer .footer-foreground .footer-made {
+      font-family: Jaapokki;
+      text-transform: uppercase;
+      font-weight: normal;
+      letter-spacing: 4px;
+      font-size: 12px;
+      margin-top: 40px; }
+    .footer .footer-foreground .footer-fieldday img {
+      height: 25px; }
 
 /* Menu Settings */
 .main-nav ul {
