@@ -1,0 +1,21 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <div class="activity-hero" style="
+        background-image: url({{ page.media['banner.jpg'].url }});
+    ">
+        <h1>{{ page.header.full_title }}</h1>
+        <h2>{{ page.header.author }}</h2>
+    </div>
+    <div class="activity-columns">
+        <div class="activity-column activity-column-left">
+            <p>This is the left column</p>
+        </div>
+        <div class="activity-column activity-column-middle">
+            {{ page.content }}
+        </div>
+        <div class="activity-column activity-column-right">
+            <p>This is the right column</p>
+        </div>
+    </div>
+{% endblock %}

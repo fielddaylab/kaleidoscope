@@ -20,6 +20,11 @@
 }
 
 @font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
     font-family: 'Jaapokki';
     src: url('../fonts/Jaapokki-Regular.otf');
 }
@@ -736,5 +741,41 @@ blockquote {
             height: 100px;
             margin: 15px;
         }
+    }
+}
+
+.activity-hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-transform: uppercase;
+    h1 {
+        font-family: Montserrat;
+    }
+    h1, h2 {
+        font-weight: normal;
+        letter-spacing: 3px;
+    }
+    padding: 100px 50px;
+}
+
+.activity-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+    .activity-column {
+        margin: 20px;
+        margin-top: 50px;
+    }
+    .activity-column-left {
+        width: 250px;
+    }
+    .activity-column-middle {
+        flex: 1;
+    }
+    .activity-column-right {
+        width: 300px;
     }
 }
