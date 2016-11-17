@@ -1,3 +1,5 @@
+<div class="content-container">
+
 <h1 class="explore-header">Explore, Learn, Discover</h1>
 
 <div class="content-grid">
@@ -39,5 +41,58 @@
         </div>
       {% endfor %}
     </div>
+    <div class="content-details">
+      <div class="content-details-controls">
+        <div class="content-details-controls-x">
+          <img src="{{ url('theme://images/controls-x.png') }}">
+        </div>
+        <div class="content-details-controls-arrows">
+          <div class="details-content-controls-prev">
+            <img src="{{ url('theme://images/controls-left.png') }}">
+          </div>
+          <div class="details-content-controls-next">
+            <img src="{{ url('theme://images/controls-right.png') }}">
+          </div>
+        </div>
+      </div>
+      {% for post in postRow %}
+        <div class="content-details-item">
+          <div class="content-details-left">
+            <div class="content-details-left-top">
+              <div class="content-details-image" style="
+                background-image: url({{ post.media['image.jpg'].url }});
+              "></div>
+              <div class="content-details-text">
+                <h2>{{post.title}}</h2>
+                <p>Paragraph goes here.</p>
+              </div>
+            </div>
+            <div class="content-details-left-bottom">
+              <a href="{{ post.url }}" class="content-details-start">Start</a>
+            </div>
+          </div>
+          <table class="content-details-table">
+            <tr>
+              <td colspan="2">
+              </td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+              <td>
+              </td>
+            </tr>
+          </table>
+        </div>
+      {% endfor %}
+    </div>
   {% endfor %}
+</div>
+
 </div>

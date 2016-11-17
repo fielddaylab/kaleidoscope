@@ -442,6 +442,11 @@ blockquote {
   letter-spacing: 7px;
   color: black; }
 
+.content-container {
+  background-color: #f8f8f8;
+  padding-top: 20px;
+  padding-bottom: 40px; }
+
 .content-grid {
   display: flex;
   flex-direction: column;
@@ -453,6 +458,8 @@ blockquote {
     justify-content: center;
     margin: 0 10px; }
     .content-grid .content-row .content-entry {
+      cursor: pointer;
+      background-color: white;
       display: flex;
       flex-direction: column;
       align-items: stretch;
@@ -502,6 +509,77 @@ blockquote {
           justify-content: center; }
           .content-grid .content-row .content-entry .content-boxes .content-arrow a img {
             width: 50px; }
+
+.content-details {
+  display: none;
+  background-color: white;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .content-details .content-details-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #dedede; }
+    .content-details .content-details-controls .content-details-controls-x {
+      border-right: 1px solid #dedede; }
+    .content-details .content-details-controls .content-details-controls-arrows {
+      display: flex;
+      flex-direction: row; }
+      .content-details .content-details-controls .content-details-controls-arrows .details-content-controls-prev, .content-details .content-details-controls .content-details-controls-arrows .details-content-controls-next {
+        border-left: 1px solid #dedede; }
+    .content-details .content-details-controls .content-details-controls-x, .content-details .content-details-controls .details-content-controls-prev, .content-details .content-details-controls .details-content-controls-next {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .content-details .content-details-controls .content-details-controls-x img, .content-details .content-details-controls .details-content-controls-prev img, .content-details .content-details-controls .details-content-controls-next img {
+        height: 25px; }
+  .content-details .content-details-item {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 320px; }
+    .content-details .content-details-item .content-details-left {
+      display: flex;
+      flex-direction: column;
+      flex: 1; }
+      .content-details .content-details-item .content-details-left .content-details-left-top {
+        display: flex;
+        flex-direction: row;
+        flex: 1; }
+        .content-details .content-details-item .content-details-left .content-details-left-top .content-details-image {
+          height: 100%;
+          width: 360px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat; }
+        .content-details .content-details-item .content-details-left .content-details-left-top .content-details-text {
+          margin-left: 20px;
+          margin-right: 20px;
+          flex: 1; }
+          .content-details .content-details-item .content-details-left .content-details-left-top .content-details-text h2 {
+            margin-top: 0;
+            font-family: Montserrat;
+            text-transform: uppercase;
+            letter-spacing: 4px; }
+      .content-details .content-details-item .content-details-left .content-details-left-bottom {
+        margin-top: 30px; }
+        .content-details .content-details-item .content-details-left .content-details-left-bottom .content-details-start {
+          text-transform: uppercase;
+          background-color: #4e4e4e;
+          color: white;
+          padding: 5px 22px;
+          font-size: 17px;
+          letter-spacing: 4px;
+          border-radius: 999px; }
+    .content-details .content-details-item .content-details-table {
+      width: 250px;
+      border: 1px solid #dedede;
+      height: 100%; }
+      .content-details .content-details-item .content-details-table td {
+        border: 1px solid #dedede; }
 
 .logos-outer {
   height: 350px;
