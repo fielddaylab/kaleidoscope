@@ -25,6 +25,8 @@ author: Greg Smestad
 video: 'http://www.youtube.com/watch?v=Jw3qCLOXmi0'
 ---
 
+[TOC]
+
 Photovoltaic cells, also called solar cells, are devices that create electricity from light. The most common type is made from silicon in a process similar to the way computer chips are made and requires large expensive factories.One possible alternative to silicon cells is dye-sensitized cells, which are less efficient, but are far less expensive to manufacture. The dye absorbs light and transfers the excited electrons to the titanium dioxide. The titanium dioxide semiconductor material separates the charge. The redox couple completes the circuit. In this lab, we will use raspberry juice to construct a simple dye-sensitized solar cell and measure the electricity the cell produces. 
 
 ## Safety
