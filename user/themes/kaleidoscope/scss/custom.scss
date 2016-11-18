@@ -649,15 +649,16 @@ blockquote {
         border: 1px solid rgb(222,222,222);
         .content-details-controls-x {
             border-right: 1px solid rgb(222,222,222);
+            cursor: pointer;
         }
         .content-details-controls-arrows {
             display: flex;
             flex-direction: row;
-            .details-content-controls-prev, .details-content-controls-next {
+            .content-details-controls-prev, .content-details-controls-next {
                 border-left: 1px solid rgb(222,222,222);
             }
         }
-        .content-details-controls-x, .details-content-controls-prev, .details-content-controls-next {
+        .content-details-controls-x, .content-details-controls-prev, .content-details-controls-next {
             img {
                 height: 25px;
             }
