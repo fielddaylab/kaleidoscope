@@ -641,4 +641,8 @@ blockquote {
   position: fixed;
   top: 0; }
 
+.youtube-link {
+  cursor: pointer;
+  color: #47f; }
+
 /*# sourceMappingURL=custom.css.map */
