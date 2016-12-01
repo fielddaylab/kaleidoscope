@@ -29,6 +29,19 @@
     src: url('../fonts/Jaapokki-Regular.otf');
 }
 
+/* Media Queries */
+$break-xs: "only screen and (max-device-width: 400px), only screen and (max-width: 400px)";
+$break-sm: "only screen and (max-width: 768px)";
+$break-sm-md: "only screen and (min-device-width : 768px) and (max-device-width : 1024px)";
+$break-md: "only screen and (max-width: 1024px)";
+$break-md-lg: "only screen and (max-width: 1324px)";
+$break-lg: "only screen and (min-width: 1025px)";
+$break-hero: "only screen and (max-height: 991px)";
+$break-xl: "only screen and (min-device-width: 1420px), only screen and (min-width: 1420px)";
+$break-nav: "only screen and (max-device-width: 600px), only screen and (max-width: 600px)";
+$break-short: "only screen and (max-device-height: 700px), only screen and (max-height: 700px)";
+
+
 /* Core Stuff */
 * {
     -webkit-box-sizing: border-box;
@@ -95,6 +108,16 @@ blockquote {
 }
 
 /* Content Styling */
+
+.section-pad {
+    padding: 10vw;
+    &.noheader {
+      padding: 0vw 10vw 10vw 10vw;
+    }
+    @media #{$break-lg} {
+      padding: 100px;
+    }
+}
 .header {
     background-color: #fff;
     color: #000;
@@ -345,6 +368,7 @@ blockquote {
     right: 0;
     bottom: 0;
     z-index:1000;
+    padding: 10px;
     h3.hero-controls-toggle {
         text-align: center;
         color: white;
@@ -360,6 +384,9 @@ blockquote {
             width: 40px;
             height: 40px;
             cursor: pointer;
+            border-radius: 25px;
+            border: 4px solid #fff;
+
         }
     }
     .hero-explain {
@@ -492,13 +519,15 @@ blockquote {
         height: 80px;
     }
     margin: 25px;
+    &.pad {
+        padding: 2vw;
+    }
 }
 
 .answers-outer {
     width: 100%;
     position: relative;
     background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(75,166,198,0.7) 100%), url(../images/scope-1.jpg) center/cover no-repeat;
-    padding: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
