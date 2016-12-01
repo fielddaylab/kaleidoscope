@@ -12,6 +12,9 @@ $(document).ready(function(){
     var index = 0;
     function changePicture() {
       scope.setImage(images[index]);
+      outer.find('.hero-option').each(function(j, option){
+        j == index ? $(option).addClass('active') : $(option).removeClass('active');
+      });
       outer.find('.hero-explain-content').each(function(j, explain){
         j == index ? $(explain).show() : $(explain).hide();
       });
