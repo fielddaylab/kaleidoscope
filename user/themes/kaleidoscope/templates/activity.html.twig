@@ -9,13 +9,22 @@
     </div>
     <div class="activity-columns">
         <div class="activity-column activity-column-left">
-            <p>This is the left column</p>
+            <div class="follow-scroll">
+                {% set toc = page.content|tocify %}
+                <nav class="activity-nav">
+                {% for element in toc %}
+                    <p>{{ element.text }}</p>
+                {% endfor %}
+                </nav>
+            </div>
         </div>
         <div class="activity-column activity-column-middle">
-            {{ page.content }}
+            {{ page.content|toc }}
         </div>
         <div class="activity-column activity-column-right">
-            <p>This is the right column</p>
+            <div class="follow-scroll">
+                <iframe class="ytplayer" type="text/html" src="{{ page.header.video }}" frameborder="0"></iframe>
+            </div>
         </div>
     </div>
 {% endblock %}

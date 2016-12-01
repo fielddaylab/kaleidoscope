@@ -1,12 +1,5 @@
 ---
 title: 'Raspberry Solar Cells'
-description: 'Labs, articles, and games to see science and engineering through a new lens.'
-long_description: >-
-    It is useful to know the approximate sizes of things.
-    Is something bigger than a bread box?
-    Will it fit through a doorway?
-    Is it as big as it is supposed to be?
-    These are all questions that we may find ourselves asking on a regular basis.
 taxonomy:
     grades:
         - Pre-K
@@ -20,10 +13,14 @@ taxonomy:
         - '25 mins'
     'page type':
         - Content
-full_title: Titanium Dioxide Raspberry Solar Cell
-author: Greg Smestad
-video: 'http://www.youtube.com/watch?v=Jw3qCLOXmi0'
+description: 'Labs, articles, and games to see science and engineering through a new lens.'
+long_description: 'It is useful to know the approximate sizes of things. Is something bigger than a bread box? Will it fit through a doorway? Is it as big as it is supposed to be? These are all questions that we may find ourselves asking on a regular basis.'
+full_title: 'Titanium Dioxide Raspberry Solar Cell'
+author: 'Greg Smestad'
+video: 'https://www.youtube.com/embed/Jw3qCLOXmi0'
 ---
+
+[TOC]
 
 Photovoltaic cells, also called solar cells, are devices that create electricity from light. The most common type is made from silicon in a process similar to the way computer chips are made and requires large expensive factories.One possible alternative to silicon cells is dye-sensitized cells, which are less efficient, but are far less expensive to manufacture. The dye absorbs light and transfers the excited electrons to the titanium dioxide. The titanium dioxide semiconductor material separates the charge. The redox couple completes the circuit. In this lab, we will use raspberry juice to construct a simple dye-sensitized solar cell and measure the electricity the cell produces. 
 
@@ -69,28 +66,51 @@ For easier distribution, transfer the TiO2 paste to a syringe. Wrap the end of t
 
 ## Procedure
 
-* **Step 1.** Identify the conducting side of a tin oxide-coated piece of glass by using a multimeter to measure resistance. The conducting side will have a resistance of 20-30 ohms.
+* **Step 1. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=111&autoplay=1"></span>**
 
-* **Step 2.** With the conducting side up, tape the glass on three sides to the center of a spill tray using one thickness of tape. Wipe off any fingerprints or oils using a tissue wet with ethanol.
-Opposite sides of tape will serve as a spacer (see below) so the tape should be flat and not wrinkled. The third side of tape gives an uncoated portion where an aligator clip will be connected
+  Identify the conducting side of a tin oxide-coated piece of glass by using a multimeter to measure resistance. The conducting side will have a resistance of 20-30 ohms.
 
-* **Step 3.** Add a small amount of titanium dioxide paste and quickly spread by pushing down and across with a microscope slide before the paste dries. The tape serves as a 40-50 micrometer spacer to control the thickness of the titanium dioxide layer if you push down.
+* **Step 2. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=122&autoplay=1"></span>**
 
-* **Step 4.** Carefully remove the tape without scratching the TiO2 coating. Leave the removed tape in a spill tray for disposal.
+  With the conducting side up, tape the glass on three sides to the center of a spill tray using one thickness of tape. Wipe off any fingerprints or oils using a tissue wet with ethanol.
 
-* **Step 5.** Heat the glass on a hotplate in a hood for 10-20 minutes. The surface turns brown as the organic solvent and surfactant dries and burns off to produce a white or green sintered titanium dioxide coating. (Note: this requires a plate that gets quite hot.) Allow the glass to slowly cool by turning off the hotplate. The sample will look quite similar before and after heating; you only know it is done if you have observed the darkening stage along the way.
+  Opposite sides of tape will serve as a spacer (see below) so the tape should be flat and not wrinkled. The third side of tape gives an uncoated portion where an aligator clip will be connected
 
-* **Step 6.** Immerse the coating in a source of anthocyanins, such as raspberry juice. The raspberry juice may be obtained from frozen raspberries. (Blackberries, pomegranate seeds, and Bing cherries can also be used.) The white TiO2 will change color as the dye is absorbed and complexed to the Ti(IV).
+* **Step 3. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=132&autoplay=1"></span>**
 
-* **Step 7.** Rinse gently with water to remove any berry solids and then with ethanol to remove water from the porous TiO2. The ethanol should have evaporated before the cell is assembled.
+  Add a small amount of titanium dioxide paste and quickly spread by pushing down and across with a microscope slide before the paste dries. The tape serves as a 40-50 micrometer spacer to control the thickness of the titanium dioxide layer if you push down.
 
-* **Step 8.** Pass a second piece of tin oxide glass, conducting side down, through a candle flame to coat the conducting side with carbon (soot). For best results, pass the glass piece quickly and repeatedly through the middle part of the flame.
+* **Step 4. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=146&autoplay=1"></span>**
 
-* **Step 9.** Wipe off the carbon along the perimeter of three sides of the carbon-coated glass plate using a dry cotton swab.
+  Carefully remove the tape without scratching the TiO2 coating. Leave the removed tape in a spill tray for disposal.
 
-* **Step 10.** Assemble the two glass plates with coated sides together, but offset so that uncoated glass extends beyond the sandwich. Do not rub or slide the plates. Clamp the plates together with binder clips.
+* **Step 5. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=153&autoplay=1"></span>**
 
-* **Step 11.** Add a drop of a triiodide solution to opposite edges of the plate. Capillary action will cause the KI3 solution to travel between the two plates. (The KI3 electrolyte solution consists of 0.5 M KI and 0.05 M I2 in anhydrous ethylene glycol.) The solution can corrode the aligator clips in the next step so wipe off an excess
+  Heat the glass on a hotplate in a hood for 10-20 minutes. The surface turns brown as the organic solvent and surfactant dries and burns off to produce a white or green sintered titanium dioxide coating. (Note: this requires a plate that gets quite hot.) Allow the glass to slowly cool by turning off the hotplate. The sample will look quite similar before and after heating; you only know it is done if you have observed the darkening stage along the way.
+
+* **Step 6. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=237&autoplay=1"></span>**
+
+  Immerse the coating in a source of anthocyanins, such as raspberry juice. The raspberry juice may be obtained from frozen raspberries. (Blackberries, pomegranate seeds, and Bing cherries can also be used.) The white TiO2 will change color as the dye is absorbed and complexed to the Ti(IV).
+
+* **Step 7. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=256&autoplay=1"></span>**
+
+  Rinse gently with water to remove any berry solids and then with ethanol to remove water from the porous TiO2. The ethanol should have evaporated before the cell is assembled.
+
+* **Step 8. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=270&autoplay=1"></span>**
+
+  Pass a second piece of tin oxide glass, conducting side down, through a candle flame to coat the conducting side with carbon (soot). For best results, pass the glass piece quickly and repeatedly through the middle part of the flame.
+
+* **Step 9. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=283&autoplay=1"></span>**
+
+  Wipe off the carbon along the perimeter of three sides of the carbon-coated glass plate using a dry cotton swab.
+
+* **Step 10. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=305&autoplay=1"></span>**
+
+  Assemble the two glass plates with coated sides together, but offset so that uncoated glass extends beyond the sandwich. Do not rub or slide the plates. Clamp the plates together with binder clips.
+
+* **Step 11. <span class="youtube-link" data-url="https://www.youtube.com/embed/Jw3qCLOXmi0?start=323&autoplay=1"></span>**
+
+  Add a drop of a triiodide solution to opposite edges of the plate. Capillary action will cause the KI3 solution to travel between the two plates. (The KI3 electrolyte solution consists of 0.5 M KI and 0.05 M I2 in anhydrous ethylene glycol.) The solution can corrode the aligator clips in the next step so wipe off an excess
 
 ## Properties
 
@@ -100,12 +120,12 @@ Test the current and voltage produced by solar illumination, or...
 
 Test the current and voltage produced by illumination from an overhead projector.
 
-Did your solar cell work? Include the current and voltage (with units) produced by your solar cell in your conclusions. How much power is produced? (energy/time = volts x amps = watts)
+1. Did your solar cell work? Include the current and voltage (with units) produced by your solar cell in your conclusions. How much power is produced? (energy/time = volts x amps = watts)
 
-What area of solar cell would be needed to produce 1 watt? (Assume the voltage produced is constant and that the current would be proportional to the area of the solar cell.)
+2. What area of solar cell would be needed to produce 1 watt? (Assume the voltage produced is constant and that the current would be proportional to the area of the solar cell.)
 
-Gather together all the cells you and your classmates made. How would you assemble them together to produce a maximum voltage? What about a maximum current?
+3. Gather together all the cells you and your classmates made. How would you assemble them together to produce a maximum voltage? What about a maximum current?
 
-What is the function of each part of the solar cell you built? One way to answer this question is to follow the path of an electron through the complete circuit.
+4. What is the function of each part of the solar cell you built? One way to answer this question is to follow the path of an electron through the complete circuit.
 
-How could you improve the efficiency of your solar cell?
+5. How could you improve the efficiency of your solar cell?
