@@ -262,7 +262,7 @@ blockquote {
 }
 
 /* Dropdown CSS */
-.main-nav ul li {position: relative;}
+.main-nav ul li { position: relative;}
 
 .main-nav ul li ul {
     position: absolute;
@@ -309,9 +309,12 @@ blockquote {
 
 .hero-outer {
     width: 100%;
-    height: 400px;
+    height: 60vh;
     background-color: black;
     position: relative;
+    .hero-overlay {
+      z-index:1000;
+    }
 }
 
 .hero-container, .hero-overlay {
@@ -323,10 +326,25 @@ blockquote {
     background-color: rgba(0,0,0,0);
 }
 
+.hero-container {
+  canvas {
+    z-index: 1;
+  }
+}
+
+.dark-overlay {
+    background-color: rgba(34, 40, 48, 0.3);
+    z-index: 400;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 .hero-controls {
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index:1000;
     h3.hero-controls-toggle {
         text-align: center;
         color: white;
