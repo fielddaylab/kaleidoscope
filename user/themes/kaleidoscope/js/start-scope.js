@@ -35,7 +35,7 @@ $(document).ready(function(){
     $(window).mousemove(function(event) {
       var factorx = event.pageX / $(window).width();
       var factory = event.pageY / $(window).height()
-      
+
       // This will move kaleidoscope
       scope.angleTarget = factorx;
       scope.zoomTarget  = 1.0 + 0.5 * factory;
@@ -44,11 +44,11 @@ $(document).ready(function(){
     container.click(function(){
       changePicture();
       clearInterval(intervalID);
-      outer.find('.hero-explain').removeClass('hero-explain-open');
+      outer.find('.hero-controls').removeClass('hero-explain-open');
     });
 
     outer.find('.hero-controls-toggle').click(function(){
-      outer.find('.hero-explain').toggleClass('hero-explain-open');
+      outer.find('.hero-controls').toggleClass('hero-explain-open');
     });
   });
 });
