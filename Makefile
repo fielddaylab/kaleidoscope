@@ -7,4 +7,4 @@ deploy:
 	rsync -vrc * .htaccess mli-field@fielddaylab.wisc.edu:/httpdocs/kaleidoscope --exclude-from rsync-exclude
 
 download:
-	rsync -vrc mli-field@fielddaylab.wisc.edu:/httpdocs/kaleidoscope/ .  --exclude-from rsync-exclude
+	rsync -vrc mli-field@fielddaylab.wisc.edu:/httpdocs/kaleidoscope/ . --exclude-from rsync-exclude
