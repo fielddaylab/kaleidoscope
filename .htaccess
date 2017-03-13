@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
 
 RewriteEngine On
+Options FollowSymLinks
+# MT: FollowSymLinks added, see https://httpd.apache.org/docs/current/mod/mod_rewrite.html
 
 ## Begin RewriteBase
 # If you are getting 500 or 404 errors on subpages, you may have to uncomment the RewriteBase entry

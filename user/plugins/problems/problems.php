@@ -180,7 +180,8 @@ class ProblemsPlugin extends Plugin
         if (strpos(php_sapi_name(), 'apache') !== false) {
 
             $require_apache_modules = ['mod_rewrite'];
-            $apache_modules = apache_get_modules();
+            $apache_modules = array('mod_rewrite'); // apache_get_modules();
+            // MT: disabled the above for WCER server
 
             $apache_status = [];
 

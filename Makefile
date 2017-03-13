@@ -4,7 +4,7 @@ list:
 	@echo "Run 'make deploy' to upload."
 
 deploy:
-	rsync -vrc * .htaccess mli-field@fielddaylab.wisc.edu:/httpdocs/kaleidoscope --exclude-from rsync-exclude
+	rsync -vrc * .htaccess website.education.wisc.edu:/var/www/site/kaleidoscope --exclude-from rsync-exclude
 
 download:
-	rsync -vrc mli-field@fielddaylab.wisc.edu:/httpdocs/kaleidoscope/ . --exclude-from rsync-exclude
+	rsync -vrc website.education.wisc.edu:/var/www/site/kaleidoscope/ . --exclude-from rsync-exclude
