@@ -1,4 +1,0 @@
----
-title: 'Kaleidoscope Hero'
----
-
