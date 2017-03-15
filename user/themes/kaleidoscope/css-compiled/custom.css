@@ -618,8 +618,7 @@ blockquote {
   .content-details .content-details-item {
     margin-top: 25px;
     display: flex;
-    flex-direction: row;
-    height: 320px; }
+    flex-direction: row; }
     .content-details .content-details-item .content-details-left {
       display: flex;
       flex-direction: column;
@@ -649,14 +648,16 @@ blockquote {
           text-transform: uppercase;
           background-color: #4e4e4e;
           color: white;
-          padding: 5px 22px;
-          font-size: 17px;
-          letter-spacing: 4px;
-          border-radius: 999px; }
+          padding: 7px 25px;
+          font-size: 13px;
+          letter-spacing: 5px;
+          border-radius: 999px;
+          font-family: 'Roboto-light'; }
     .content-details .content-details-item .content-details-table {
-      width: 250px;
+      min-width: 200px;
       border: 1px solid #dedede;
-      height: 100%; }
+      height: 320px;
+      text-align: center; }
       .content-details .content-details-item .content-details-table td {
         border: 1px solid #dedede; }
 
@@ -697,19 +698,25 @@ blockquote {
     margin: 20px;
     margin-top: 50px; }
   .activity-columns .activity-column-left {
-    width: 250px; }
+    width: 225px;
+    min-width: 225px; }
     .activity-columns .activity-column-left .activity-nav {
       text-transform: uppercase;
       border-left: 5px solid #bbe2eb;
       padding-left: 20px; }
   .activity-columns .activity-column-middle {
-    flex: 1; }
+    flex: 1;
+    font-family: 'Roboto-light'; }
     .activity-columns .activity-column-middle nav {
       display: none; }
+    .activity-columns .activity-column-middle img {
+      max-width: 100%; }
   .activity-columns .activity-column-right {
-    width: 400px; }
+    width: 300px;
+    max-width: 25vw; }
     .activity-columns .activity-column-right .ytplayer {
-      width: 400px;
+      width: 300px;
+      max-width: 25vw;
       height: 300px; }
 
 .scroll-locked {
