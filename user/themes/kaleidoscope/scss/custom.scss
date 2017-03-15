@@ -39,6 +39,7 @@ $break-xs: "only screen and (max-device-width: 400px), only screen and (max-widt
 $break-sm: "only screen and (max-width: 768px)";
 $break-sm-md: "only screen and (min-device-width : 768px) and (max-device-width : 1024px)";
 $break-md: "only screen and (max-width: 1024px)";
+$break-md-gt: "only screen and (min-width: 1025px)";
 $break-md-lg: "only screen and (max-width: 1324px)";
 $break-lg: "only screen and (min-width: 1025px)";
 $break-hero: "only screen and (max-height: 991px)";
@@ -680,6 +681,9 @@ blockquote {
         align-items: stretch;
         justify-content: center;
         margin: 0 10px;
+        @media #{$break-md} {
+            display: none;
+        }
         .content-entry {
             cursor: pointer;
             background-color: white;
@@ -751,6 +755,9 @@ blockquote {
 
 .content-details {
     display: none;
+    @media #{$break-md} {
+        display: block !important;
+    }
     background-color: white;
     padding: 40px;
     margin-top: 40px;
@@ -760,6 +767,9 @@ blockquote {
         flex-direction: row;
         justify-content: space-between;
         border: 1px solid rgb(222,222,222);
+        @media #{$break-md} {
+            display: none;
+        }
         .content-details-controls-x {
             border-right: 1px solid rgb(222,222,222);
             cursor: pointer;
@@ -786,6 +796,10 @@ blockquote {
         margin-top: 25px;
         display: flex;
         flex-direction: row;
+        @media #{$break-md} {
+            flex-direction: column;
+            display: block !important;
+        }
         .content-details-left {
             display: flex;
             flex-direction: column;
@@ -794,18 +808,25 @@ blockquote {
                 display: flex;
                 flex-direction: row;
                 flex: 1;
+                @media #{$break-md} {
+                    flex-direction: column;
+                }
                 .content-details-image {
                     height: 100%;
                     width: 360px;
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
+                    @media #{$break-md} {
+                        height: 200px;
+                        width: 100%;
+                    }
                 }
                 .content-details-text {
                     margin-left: 20px;
                     margin-right: 20px;
                     h2 {
-                        margin-top: 0;
+                        margin-top: 20px;
                         font-family: Montserrat;
                         text-transform: uppercase;
                         letter-spacing: 4px;
@@ -833,8 +854,11 @@ blockquote {
             td {
                 border: 1px solid rgb(222,222,222);
             }
-            height: 320px;
             text-align: center;
+            height: 320px;
+            @media #{$break-md} {
+                display: none;
+            }
         }
     }
 }
@@ -881,6 +905,9 @@ blockquote {
     flex-direction: row;
     justify-content: stretch;
     align-items: stretch;
+    @media #{$break-md} {
+        flex-direction: column-reverse;
+    }
     .activity-column {
         margin: 20px;
         margin-top: 50px;
@@ -892,6 +919,9 @@ blockquote {
             text-transform: uppercase;
             border-left: 5px solid rgb(187,226,235);
             padding-left: 20px;
+        }
+        @media #{$break-md} {
+            display: none;
         }
     }
     .activity-column-middle {
@@ -911,13 +941,23 @@ blockquote {
             width: 300px;
             max-width: 25vw;
             height: 300px;
+            @media #{$break-md} {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+        @media #{$break-md} {
+            width: 90%;
+            max-width: 90%;
         }
     }
 }
 
 .scroll-locked {
-    position: fixed;
-    top: 0;
+    @media #{$break-md-gt} {
+        position: fixed;
+        top: 0;
+    }
 }
 
 .youtube-link {

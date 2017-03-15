@@ -538,6 +538,9 @@ blockquote {
     align-items: stretch;
     justify-content: center;
     margin: 0 10px; }
+    @media only screen and (max-width: 1024px) {
+      .content-grid .content-row {
+        display: none; } }
     .content-grid .content-row .content-entry {
       cursor: pointer;
       background-color: white;
@@ -597,11 +600,17 @@ blockquote {
   padding: 40px;
   margin-top: 40px;
   margin-bottom: 40px; }
+  @media only screen and (max-width: 1024px) {
+    .content-details {
+      display: block !important; } }
   .content-details .content-details-controls {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid #dedede; }
+    @media only screen and (max-width: 1024px) {
+      .content-details .content-details-controls {
+        display: none; } }
     .content-details .content-details-controls .content-details-controls-x {
       border-right: 1px solid #dedede;
       cursor: pointer; }
@@ -622,6 +631,10 @@ blockquote {
     margin-top: 25px;
     display: flex;
     flex-direction: row; }
+    @media only screen and (max-width: 1024px) {
+      .content-details .content-details-item {
+        flex-direction: column;
+        display: block !important; } }
     .content-details .content-details-item .content-details-left {
       display: flex;
       flex-direction: column;
@@ -630,18 +643,25 @@ blockquote {
         display: flex;
         flex-direction: row;
         flex: 1; }
+        @media only screen and (max-width: 1024px) {
+          .content-details .content-details-item .content-details-left .content-details-left-top {
+            flex-direction: column; } }
         .content-details .content-details-item .content-details-left .content-details-left-top .content-details-image {
           height: 100%;
           width: 360px;
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat; }
+          @media only screen and (max-width: 1024px) {
+            .content-details .content-details-item .content-details-left .content-details-left-top .content-details-image {
+              height: 200px;
+              width: 100%; } }
         .content-details .content-details-item .content-details-left .content-details-left-top .content-details-text {
           margin-left: 20px;
           margin-right: 20px;
           flex: 1; }
           .content-details .content-details-item .content-details-left .content-details-left-top .content-details-text h2 {
-            margin-top: 0;
+            margin-top: 20px;
             font-family: Montserrat;
             text-transform: uppercase;
             letter-spacing: 4px; }
@@ -659,10 +679,13 @@ blockquote {
     .content-details .content-details-item .content-details-table {
       min-width: 200px;
       border: 1px solid #dedede;
-      height: 320px;
-      text-align: center; }
+      text-align: center;
+      height: 320px; }
       .content-details .content-details-item .content-details-table td {
         border: 1px solid #dedede; }
+      @media only screen and (max-width: 1024px) {
+        .content-details .content-details-item .content-details-table {
+          display: none; } }
 
 .logos-outer {
   padding: 20px;
@@ -698,6 +721,9 @@ blockquote {
   flex-direction: row;
   justify-content: stretch;
   align-items: stretch; }
+  @media only screen and (max-width: 1024px) {
+    .activity-columns {
+      flex-direction: column-reverse; } }
   .activity-columns .activity-column {
     margin: 20px;
     margin-top: 50px; }
@@ -708,6 +734,9 @@ blockquote {
       text-transform: uppercase;
       border-left: 5px solid #bbe2eb;
       padding-left: 20px; }
+    @media only screen and (max-width: 1024px) {
+      .activity-columns .activity-column-left {
+        display: none; } }
   .activity-columns .activity-column-middle {
     flex: 1;
     font-family: 'Roboto-light'; }
@@ -722,10 +751,19 @@ blockquote {
       width: 300px;
       max-width: 25vw;
       height: 300px; }
+      @media only screen and (max-width: 1024px) {
+        .activity-columns .activity-column-right .ytplayer {
+          width: 100%;
+          max-width: 100%; } }
+    @media only screen and (max-width: 1024px) {
+      .activity-columns .activity-column-right {
+        width: 90%;
+        max-width: 90%; } }
 
-.scroll-locked {
-  position: fixed;
-  top: 0; }
+@media only screen and (min-width: 1025px) {
+  .scroll-locked {
+    position: fixed;
+    top: 0; } }
 
 .youtube-link {
   cursor: pointer;
