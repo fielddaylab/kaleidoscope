@@ -2,18 +2,14 @@
 title: 'Balloon Nanotube Construction'
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
-        - 6-8
-        - 9-12
-        - 13+
+        - 12-14
     'resource type':
         - Labs
     time:
-        - '5 mins'
+        - '3 hours'
     'page type':
         - Content
-description: 'Labs, articles, and games to see science and engineering through a new lens.'
+description: 'Learn how to build a Nanotube Balloon sculpture.'
 long_description: 'Learn how to build a Nanotube Balloon sculpture.'
 full_title: 'Balloon Nanotube Construction'
 ---

@@ -10,10 +10,10 @@ taxonomy:
     'resource type':
         - Labs
     time:
-        - '20 mins'
+        - '30-45 min'
     'page type':
         - Content
-description: 'Labs, articles, and games to see science and engineering through a new lens.'
+description: 'Here, we demonstrate an economical, safe, and simple technique to synthesize multilayer graphene films via chemical vapor deposition'
 long_description: 'Graphene’s unique combination of exceptional mechanical, electronic, and thermal properties makes this material a promising candidate to enable next-generation technologies in a wide range of fields, including electronics, energy, and medicine.'
 full_title: 'Graphene Synthesis via Chemical Vapor Deposition '
 author: 'GEORGE LISENSKY'

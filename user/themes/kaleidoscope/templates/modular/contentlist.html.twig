@@ -3,7 +3,7 @@
 <h1 class="explore-header">Explore, Learn, Discover</h1>
 
 <div class="content-grid">
-  {% for postRow in taxonomy.findTaxonomy({'page type': 'Content'}).batch(4) %}
+  {% for postRow in taxonomy.findTaxonomy({'page type': 'Content'}).visible().batch(4) %}
     <div class="content-row">
       {% for post in postRow %}
         <div class="content-entry">
