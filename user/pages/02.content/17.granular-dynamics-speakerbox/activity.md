@@ -13,7 +13,7 @@ taxonomy:
         - '5 mins'
     'page type':
         - Content
-visible: false
+visible: true
 description: 'Labs, articles, and games to see science and engineering through a new lens.'
 long_description: 'Your job is to design a set of experiments that relate granular dynamics to phase change.  With your lab group you must write a problem and hypothesis, define variables, write a procedure, and record data from your tests.  Individually, you should write a finished lab report and a final conclusion. '
 full_title: 'Granular Dynamics Speakerbox'

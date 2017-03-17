@@ -682,7 +682,8 @@ blockquote {
       text-align: center;
       height: 320px; }
       .content-details .content-details-item .content-details-table td {
-        border: 1px solid #dedede; }
+        border: 1px solid #dedede;
+        padding: 0 10px; }
       @media only screen and (max-width: 1024px) {
         .content-details .content-details-item .content-details-table {
           display: none; } }

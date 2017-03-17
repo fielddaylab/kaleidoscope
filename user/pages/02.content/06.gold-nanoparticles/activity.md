@@ -1,16 +1,18 @@
 ---
 title: 'Citrate Synthesis of Gold Nanoparticles'
+published: true
+metadata:
+    table_2: Lab
+    table_3: 'Grade: 8-College'
+    table_4: 'Safe Disposal'
+    table_5: 'Time: 60-90 min'
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
-        - 6-8
-        - 9-12
-        - 13+
+        - '8 - College'
     'resource type':
         - Labs
     time:
-        - '5 mins'
+        - '60-90 min'
     'page type':
         - Content
 description: 'Labs, articles, and games to see science and engineering through a new lens.'

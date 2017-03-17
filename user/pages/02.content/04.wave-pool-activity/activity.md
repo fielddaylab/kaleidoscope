@@ -1,16 +1,18 @@
 ---
 title: 'Wave Pool Activity '
+published: true
+metadata:
+    table_2: Lab
+    table_3: 'Grade: Middle School'
+    table_4: 'Safe Disposal '
+    table_5: 'Time: 2 Days '
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
         - 6-8
-        - 9-12
-        - 13+
     'resource type':
         - Labs
     time:
-        - '5 mins'
+        - '2 days'
     'page type':
         - Content
 description: 'Labs, articles, and games to see science and engineering through a new lens.'

@@ -1,12 +1,14 @@
 ---
 title: 'Graphene Synthesis via Chemical Vapor Deposition'
+published: true
+metadata:
+    table_2: Lab
+    table_3: 'Grade:  8-College'
+    table_4: 'Hazardous Disposal'
+    table_5: 'Time: 30-45 min'
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
-        - 6-8
-        - 9-12
-        - 13+
+        - '8 - College'
     'resource type':
         - Labs
     time:

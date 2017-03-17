@@ -1,16 +1,17 @@
 ---
 title: 'Octadecanethiol Monolayer on Silver'
+metadata:
+    table_2: Lab
+    table_3: 'Grade:  9-College'
+    table_4: 'Safe Disposal '
+    table_5: '30-60 min '
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
-        - 6-8
-        - 9-12
-        - 13+
+        - 9-college
     'resource type':
         - Labs
     time:
-        - '25 mins'
+        - '30-60 min'
     'page type':
         - Content
 description: 'Labs, articles, and games to see science and engineering through a new lens.'

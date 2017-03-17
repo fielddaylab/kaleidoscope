@@ -1,5 +1,6 @@
 ---
 title: 'Cutting it Down to Nano'
+published: true
 taxonomy:
     grades:
         - Pre-K
@@ -13,10 +14,10 @@ taxonomy:
         - '5 mins'
     'page type':
         - Content
+visible: true
 description: 'Labs, articles, and games to see science and engineering through a new lens.'
 long_description: 'A nanometer is one billionth of a meter (10<sup>-9</sup> meters). That’s a really tiny measurement, but it’s hard to imagine just how small it is. A nanometer isn’t just tiny in the way that a grain of sand or a speck of dust is tiny – it’s thousands of times smaller than that.'
 full_title: 'Cutting it Down to Nano'
-visible: false
 ---
 
 [TOC]

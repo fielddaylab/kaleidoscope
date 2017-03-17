@@ -1,16 +1,17 @@
 ---
 title: MICROFLUIDICS
+metadata:
+    table_2: 'Article '
+    table_3: 'Grade: 9-College'
+    table_4: 'Safe Disposal '
+    table_5: '10 min '
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
-        - 6-8
-        - 9-12
-        - 13+
+        - 9-college
     'resource type':
-        - Labs
+        - Articles
     time:
-        - '5 mins'
+        - '10 min'
     'page type':
         - Content
 description: 'Labs, articles, and games to see science and engineering through a new lens.'
@@ -43,6 +44,8 @@ A microfluidic pattern in the shape of the chairs found on the UW Memorial Union
 
 
 ## CITATION
+
+http://pubs.acs.org/doi/abs/10.1021/ed4003018
 
 1.	Whitesides, G. M. The origins and the future of microfluidics. Nature 2006, 442, 368-373.
 2.	Weibel, D.; Whitesides, G. M. Applications of microfluidics in chemical biology. Current Opinion in Chemical Biology 2006, 10, 584-591

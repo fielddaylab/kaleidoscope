@@ -1,16 +1,17 @@
 ---
 title: 'Preparation of a Cholesteryl Ester Liquid Crystal Thermometer'
+metadata:
+    table_2: Lab
+    table_3: 'Grade: 3-College'
+    table_4: 'Safe Disposal '
+    table_5: '15 min '
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
-        - 6-8
-        - 9-12
-        - 13+
+        - 3-College
     'resource type':
         - Labs
     time:
-        - '25 mins'
+        - '15 min'
     'page type':
         - Content
 description: 'Labs, articles, and games to see science and engineering through a new lens.'

@@ -1,16 +1,18 @@
 ---
 title: 'MICROFLUIDICS FOR HIGHSCHOOL CHEMISTRY STUDENTS'
+published: true
+metadata:
+    table_2: Lab
+    table_3: 'Grade: 9-College'
+    table_4: 'Hazardous Disposal '
+    table_5: 'Time: five 45 min classes '
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
-        - 6-8
-        - 9-12
-        - 13+
+        - 9-college
     'resource type':
         - Labs
     time:
-        - '5 mins'
+        - 'five 45 min classes'
     'page type':
         - Content
 description: 'Labs, articles, and games to see science and engineering through a new lens.'
@@ -22,6 +24,8 @@ author: 'Melissa Hemling, John A. Crooks, Piercen M. Oliver, Katie Brenner,ennif
 [TOC]
 
 _Written by Melissa Hemling, John A. Crooks, Piercen M. Oliver, Katie Brenner,ennifer Gilbertson, George C. Lisensky, and Douglas B. Weibel_
+
+http://pubs.acs.org/doi/abs/10.1021/ed4003018
 
 ## ABSTRACT
 ![](ed-2013-003018_0003.gif)

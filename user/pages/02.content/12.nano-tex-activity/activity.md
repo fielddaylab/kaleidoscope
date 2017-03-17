@@ -1,16 +1,17 @@
 ---
 title: 'Nano-Tex Activity'
+metadata:
+    table_2: Activity
+    table_3: 'Grade:  Middle School '
+    table_4: 'Safe Disposal '
+    table_5: 'Time: 50 min'
 taxonomy:
     grades:
-        - Pre-K
-        - 1-5
-        - 6-8
-        - 9-12
-        - 13+
+        - 'Middle School'
     'resource type':
         - Labs
     time:
-        - '5 mins'
+        - '50 min'
     'page type':
         - Content
 description: 'Labs, articles, and games to see science and engineering through a new lens.'

@@ -1,12 +1,19 @@
 ---
 title: 'Balloon Nanotube Construction'
+published: true
+publish_date: '16-03-2017 09:48'
+metadata:
+    table_2: Activity
+    table_3: 'Grade:  2-8'
+    table_4: 'Safe Disposal '
+    table_5: 'Time: 35 min to 6 hrs '
 taxonomy:
     grades:
-        - 12-14
+        - 2-8
     'resource type':
-        - Labs
+        - Activity
     time:
-        - '3 hours'
+        - '35 min-6 hrs'
     'page type':
         - Content
 description: 'Learn how to build a Nanotube Balloon sculpture.'
