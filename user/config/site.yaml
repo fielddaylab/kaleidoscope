@@ -1,4 +1,5 @@
 title: Kaleidoscope
+default_lang: en
 author:
   name: 'UW MRSEC'
   email: david.gagnon@wisc.edu
@@ -7,6 +8,7 @@ taxonomies:
   - 'resource type'
   - time
   - 'page type'
+  - ages
 metadata:
   description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
 summary:

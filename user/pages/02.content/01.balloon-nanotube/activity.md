@@ -16,6 +16,8 @@ taxonomy:
         - '35 min-6 hrs'
     'page type':
         - Content
+    ages:
+        - 5-99
 description: 'Learn how to build a Nanotube Balloon sculpture.'
 long_description: 'Learn how to build a Nanotube Balloon sculpture.'
 full_title: 'Balloon Nanotube Construction'
